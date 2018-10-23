@@ -1,3 +1,5 @@
+@import "breakpoints"
+
 .item
   display: flex
   justify-content: space-around
@@ -20,10 +22,18 @@
 
     &-headline
       font-size: 80px
+      +wide
+        font-size: 42px
+
+    &-text
+      +wide
+        font-size: 20px
+        width: 200px
 
     &-border
       margin: 10px auto
-      width: 25%
+      +narrow
+        width: 25%
 
     &-text__wrapper
       display: flex

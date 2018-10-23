@@ -1,22 +1,33 @@
+@import "breakpoints"
+
 .item-wide
   padding: 0 40px
 
   &__header
     font-size: 70px
+    +wide
+      font-size: 42px
 
   &__border
-    margin-bottom: 20px
-    width: 25%
+    +narrow
+      margin-bottom: 20px
+      width: 25%
 
   &__wrapper
     display: flex
     justify-content: center
     margin-bottom: 30px
+    +wide
+      font-size: 20px
+      font-size: 20px
+      width: 30%
+      margin: 0 auto
 
   &__content
     width: 40%
     margin: 0 10px
 
   &__image
-    width: 90%
-    margin-left: 35px
+    +narrow
+      width: 90%
+      margin-left: 35px

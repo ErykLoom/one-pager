@@ -1,0 +1,19 @@
+@mixin narrow
+  @media (max-width: 767px)
+    @content
+
+@mixin narrow-or-medium
+  @media (max-width: 1200px)
+    @content
+
+@mixin medium
+  @media (min-width: 768px) and (max-width: 1200px)
+    @content
+
+@mixin wide
+  @media (min-width: 1201px)
+    @content
+
+@mixin medium-or-wide
+  @media (min-width: 768px)
+    @content

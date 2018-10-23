@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b501d1-d193-4d2e-91de-63288fdcdd16" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/components/content/fertig/fertig.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/fertig/fertig.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/head/head.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/head/head.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/item-wide/item-wide.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/item-wide/item-wide.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/item/item.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/item/item.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/text-block/text-block.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/text-block/text-block.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/download/download.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/download/download.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/LOOM_Xmas_Gloomwein_Download.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/1_Rotwein.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/2_Lebkuchengewuerz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/3_Nelken.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/4_Zimt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/5_Orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/6_Schnapsglaeser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wachholderbeeren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variables/breakpoints.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/content/fertig/fertig.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/fertig/fertig.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/content/head/head.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/head/head.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/content/header-logo/header-logo.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/header-logo/header-logo.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content/header-logo/header-logo.twig" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/header-logo/header-logo.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummy/content.twig" beforeDir="false" afterPath="$PROJECT_DIR$/dummy/content.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummy/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/dummy/footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummy/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/dummy/header.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/content/item-wide/item-wide.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/item-wide/item-wide.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/content/item/item.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/item/item.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/content/text-block/text-block.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/text-block/text-block.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/download/download.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/download/download.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/layout.sass" beforeDir="false" afterPath="$PROJECT_DIR$/layout/layout.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/variables/colors.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,38 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="download.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/navigation/download/download.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="download.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/navigation/download/download.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/layout.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="199">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dummy/footer.twig">
+      <file leaf-file-name="download.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/navigation/download/download.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -117,17 +81,18 @@
         <option value="$PROJECT_DIR$/components/content/item-wide/item-wide.twig" />
         <option value="$PROJECT_DIR$/components/content/fertig/fertig.twig" />
         <option value="$PROJECT_DIR$/variables/colors.scss" />
-        <option value="$PROJECT_DIR$/components/content/text-block/text-block.sass" />
-        <option value="$PROJECT_DIR$/components/content/head/head.sass" />
-        <option value="$PROJECT_DIR$/components/content/header-logo/header-logo.sass" />
-        <option value="$PROJECT_DIR$/components/content/item/item.sass" />
-        <option value="$PROJECT_DIR$/components/content/item-wide/item-wide.sass" />
         <option value="$PROJECT_DIR$/dummy/content.twig" />
-        <option value="$PROJECT_DIR$/components/content/fertig/fertig.sass" />
-        <option value="$PROJECT_DIR$/components/navigation/download/download.sass" />
         <option value="$PROJECT_DIR$/components/navigation/download/download.twig" />
         <option value="$PROJECT_DIR$/dummy/footer.twig" />
+        <option value="$PROJECT_DIR$/variables/breakpoints.sass" />
+        <option value="$PROJECT_DIR$/components/content/header-logo/header-logo.sass" />
+        <option value="$PROJECT_DIR$/components/content/head/head.sass" />
+        <option value="$PROJECT_DIR$/components/content/text-block/text-block.sass" />
+        <option value="$PROJECT_DIR$/components/content/item/item.sass" />
+        <option value="$PROJECT_DIR$/components/content/item-wide/item-wide.sass" />
+        <option value="$PROJECT_DIR$/components/content/fertig/fertig.sass" />
         <option value="$PROJECT_DIR$/layout/layout.sass" />
+        <option value="$PROJECT_DIR$/components/navigation/download/download.sass" />
       </list>
     </option>
   </component>
@@ -522,12 +487,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540281368737</updated>
       <workItem from="1540281371939" duration="754000" />
-      <workItem from="1540288440248" duration="14088000" />
+      <workItem from="1540288440248" duration="16367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14842000" />
+    <option name="totallyTimeSpent" value="17121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-291" y="-1177" width="1920" height="1177" extended-state="6" />
@@ -713,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/content/head/head.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/content/fertig/fertig.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -748,38 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/content/header-logo/header-logo.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/content/header-logo/header-logo.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/content/head/head.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/content/text-block/text-block.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/content/fertig/fertig.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -790,10 +720,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/content/item-wide/item-wide.sass">
+    <entry file="file://$PROJECT_DIR$/dummy/footer.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/navigation/download/download.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variables/breakpoints.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/content/head/head.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/content/head/head.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/content/header-logo/header-logo.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/content/text-block/text-block.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -806,36 +778,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/content/item/item.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="450">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/navigation/download/download.sass">
+    <entry file="file://$PROJECT_DIR$/components/content/item-wide/item-wide.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/navigation/download/download.twig">
+    <entry file="file://$PROJECT_DIR$/components/content/fertig/fertig.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dummy/footer.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/layout.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="199">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/navigation/download/download.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
