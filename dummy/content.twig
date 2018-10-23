@@ -1,0 +1,68 @@
+<div class="content">
+  {% include '../components/content/head/head.twig' with {
+    content: 'Once A Upon a Time'
+  } %}
+  <img class="content__headline-line" src="../img/headline_line.svg">
+  {% include '../components/content/text-block/text-block.twig' with {
+    content: 'Vergangenes Jahr, als Loomies im Überschwang von Gefühlen einen Glühwein-Contest veranstalteten, um die anregende Atmosphäre auf einen Level vollkommener Extase zu katapultieren, ist es passiert: Im LOOM Kreativlabor wurde ein Rezept geboren - GLOOMWein.',
+  } %}
+  {% include '../components/content/text-block/text-block.twig' with {
+    content: 'Coca Cola bat uns Millionen, aber forderte viel: Wir müssten Sicherheitssysteme installieren und Wissende der Rezeptur dürften nicht mehr zusammen in der U-Bahn oder dem Auto nach Hause fahren. Im Rausche des Kleinwahns haben wir uns dagegen entschieden, erfolgreichster Glühweinhersteller der Welt zu werden.',
+  } %}
+  {% include '../components/content/text-block/text-block.twig' with {
+    content: 'Wir fühlen uns hier auf dem Boden der Tatsachen wohl und möchten das Rezept zu Weihnachten viel lieber mit unseren liebgewonnen Kunden teilen. Weil sie es sind, die uns aus machen. Weil wir stilvollen Genuss zum Fest der Feste fördern wollen. Weil wir “DANKE” sagen möchten.',
+  } %}
+  {% include '../components/content/text-block/text-block.twig' with {
+    content: 'Weil wir "DANKE" sagen möchten',
+  } %}
+  {% include '../components/content/head/head.twig' with {
+    content: 'Geheime Rezeptur',
+  } %}
+  <img class="content__banderole" src="../img/banderole_rotwein.svg">
+  {% include '../components/content/item/item.twig' with {
+    headline: '1 Liter',
+    content: 'Romantischer Rotwein mit trockenem Charm und fruchtiger Note',
+    image: '../img/1_Rotwein.png',
+  } %}
+  {% include '../components/content/item/item.twig' with {
+    headline: '1 Teelöffel',
+    content: 'Liebliches Lebkuchengewürz vom Gewürzdealer ihres Vertrauens',
+    image: '../img/2_Lebkuchengewuerz.png',
+    reverse: true,
+  } %}
+  {% include '../components/content/item/item.twig' with {
+    headline: '5 Stück',
+    content: 'Neckische Nelken, ebenfalls vom Vertrauten der Gewürze',
+    image: '../img/3_Nelken.png',
+  } %}
+  {% include '../components/content/item/item.twig' with {
+    headline: '1 Stück',
+    content: 'Wahnsinnige Wacholderbeere aus der Region',
+    image: '../img/wachholderbeeren.png',
+    reverse: true,
+  } %}
+  {% include '../components/content/item/item.twig' with {
+    headline: '1 Stück',
+    content: 'Halbe Stange von zärtlichem Zimt für zappeligen Nachgeschmack ',
+    image: '../img/4_Zimt.png',
+  } %}
+  {% include '../components/content/item/item.twig' with {
+    headline: '1 Stück',
+    content: 'Originelle Orange unbehandelter Art',
+    image: '../img/5_Orange.png',
+    reverse: true,
+  } %}
+  {% include '../components/content/item-wide/item-wide.twig' with {
+    headline: 'je 1 Centiliter',
+    content1: 'Reizender Rum mit unwiderstehlichen Umdrehungen',
+    content2: 'Jodelnder Jägertee für den Schwips de Luxe',
+    content3: 'Cointreau für einen coolen Abgang',
+    image: '../img/6_Schnapsglaeser.png',
+  } %}
+  <div class="content__time">
+    <img class="content__time-image" src="../img/80_grad.svg">
+    <img class="content__time-image" src="../img/uhrzeit.svg">
+  </div>
+  {% include '../components/content/fertig/fertig.twig' %}
+  {% include '../components/navigation/download/download.twig' %}
+</div>

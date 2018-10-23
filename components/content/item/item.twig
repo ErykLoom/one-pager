@@ -1,0 +1,10 @@
+<div class="item">
+    <div class="{% if reverse %}item__wrapper-reverse {% else %}item__wrapper{% endif %}">
+      <img class="item__image" src="{{ image }}">
+      <div class="item__content">
+        <div class="item__content-headline">{{ headline }}</div>
+        <img class="item__content-border" src="../img/headline_line.svg">
+        <div class="item__content-text">{{ content }}</div>
+      </div>
+    </div>
+</div>
