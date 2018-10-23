@@ -1,0 +1,7 @@
+$colors: (
+  main: #f2f0ed,
+);
+
+@function color($name) {
+  @return map-get($colors, $name);
+}
