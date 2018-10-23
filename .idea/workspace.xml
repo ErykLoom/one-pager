@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b501d1-d193-4d2e-91de-63288fdcdd16" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/header-logo/header-logo.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/content/header-logo/header-logo.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummy/_html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummy/content.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummy/footer.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummy/header.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummy/index.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/80_grad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/abwehrkraefte_schriftzug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/arme.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aroma_liste.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/banderole_orange.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/banderole_rotwein.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/brezel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/danke_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/danke_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/download_button.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gloomwein_headline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/headline_line.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/heilkraefte_schild.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/holy_christmas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/like.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/loom_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mampf_kekse.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/notiz_einhalb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/orangen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rot_bubble.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rotwein_prost.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rotwein_spruch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/schnaps_cointreau.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/schnaps_jaegertee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/schnaps_rum.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/schneemann.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sterne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/strahlen_sterne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/uhrzeit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/zuckerstangen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/layout.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/page.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,8 +18,8 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="32" lean-forward="true" selection-end-line="72" selection-end-column="3" />
+            <state relative-caret-position="313">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -73,25 +28,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="950">
-              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_html.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/_html.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -409,6 +346,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -472,12 +410,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540281368737</updated>
       <workItem from="1540281371939" duration="754000" />
-      <workItem from="1540288440248" duration="3857000" />
+      <workItem from="1540288440248" duration="4118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4611000" />
+    <option name="totallyTimeSpent" value="4872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-291" y="-1177" width="1920" height="1177" extended-state="6" />
@@ -544,13 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -647,15 +578,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="32" lean-forward="true" selection-end-line="72" selection-end-column="3" />
+        <state relative-caret-position="313">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
         </state>
       </provider>
     </entry>

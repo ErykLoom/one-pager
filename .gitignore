@@ -68,5 +68,4 @@ vendor
 .idea
 edition-node-gulp
 css/
-package-lock.json
 web/
