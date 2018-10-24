@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b501d1-d193-4d2e-91de-63288fdcdd16" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/loom-font.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content/header-logo/header-logo.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/header-logo/header-logo.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content/item-wide/item-wide.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/item-wide/item-wide.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content/item-wide/item-wide.twig" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/item-wide/item-wide.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content/item/item.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/item/item.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content/item/item.twig" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/item/item.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content/text-block/text-block.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/text-block/text-block.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/content/text-block/text-block.twig" beforeDir="false" afterPath="$PROJECT_DIR$/components/content/text-block/text-block.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummy/content.twig" beforeDir="false" afterPath="$PROJECT_DIR$/dummy/content.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummy/_html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/dummy/_html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/layout.sass" beforeDir="false" afterPath="$PROJECT_DIR$/layout/layout.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="item.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/content/item/item.twig">
+      <file leaf-file-name="layout.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/layout.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dummy/_html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -64,12 +66,10 @@
         <option value="$PROJECT_DIR$/web/_html.html" />
         <option value="$PROJECT_DIR$/templates/page.html.twig" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/dummy/_html.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/components/content/header-logo/header-logo.twig" />
         <option value="$PROJECT_DIR$/css/main.min.css" />
         <option value="$PROJECT_DIR$/components/content/header/header.twig" />
-        <option value="$PROJECT_DIR$/components/content/head/head.twig" />
         <option value="$PROJECT_DIR$/dummy/header.js" />
         <option value="$PROJECT_DIR$/dummy/header.twig.html" />
         <option value="$PROJECT_DIR$/dummy/header.twig" />
@@ -85,11 +85,13 @@
         <option value="$PROJECT_DIR$/dummy/content.twig" />
         <option value="$PROJECT_DIR$/components/content/item-wide/item-wide.twig" />
         <option value="$PROJECT_DIR$/components/content/head/head.sass" />
-        <option value="$PROJECT_DIR$/layout/layout.sass" />
         <option value="$PROJECT_DIR$/components/content/item-wide/item-wide.sass" />
         <option value="$PROJECT_DIR$/components/content/item/item.sass" />
         <option value="$PROJECT_DIR$/components/content/header-logo/header-logo.sass" />
         <option value="$PROJECT_DIR$/components/content/item/item.twig" />
+        <option value="$PROJECT_DIR$/layout/layout.sass" />
+        <option value="$PROJECT_DIR$/components/content/head/head.twig" />
+        <option value="$PROJECT_DIR$/dummy/_html.twig" />
       </list>
     </option>
   </component>
@@ -404,12 +406,24 @@
               <item name="one-pager" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="head" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="one-pager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="one-pager" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="one-pager" type="b2602c69:ProjectViewProjectNode" />
               <item name="one-pager" type="462c0819:PsiDirectoryNode" />
               <item name="dummy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="one-pager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="one-pager" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="one-pager" type="b2602c69:ProjectViewProjectNode" />
@@ -455,6 +469,7 @@
       <recent name="$PROJECT_DIR$/components/content/header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/components/content" />
       <recent name="$PROJECT_DIR$/img" />
@@ -483,12 +498,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540281368737</updated>
       <workItem from="1540281371939" duration="754000" />
-      <workItem from="1540288440248" duration="30708000" />
+      <workItem from="1540288440248" duration="31793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31462000" />
+    <option name="totallyTimeSpent" value="32547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-291" y="-1177" width="1920" height="1177" extended-state="6" />
@@ -637,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dummy/_html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dummy/header.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -706,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/content/head/head.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/content/fertig/fertig.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -760,20 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/layout.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dummy/content.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/content/item-wide/item-wide.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -788,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/content/item/item.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/content/header-logo/header-logo.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -802,10 +782,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/content/item/item.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/content/item/item.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/content/head/head.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy/content.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/layout.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy/_html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
