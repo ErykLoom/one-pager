@@ -1,1 +1,19 @@
-<div class="text-block">{{ content }}</div>
+{% if icons %}
+  <div class="text-block__wrapper">
+    <div class="text-block__sweet icon"><img src="../img/zuckerstangen.svg"></div>
+    <div class="text-block">{{ content }}</div>
+    <div class="text-block__sweet icon"><img src="../img/holy_christmas.svg"></div>
+  </div>
+{% elseif danke %}
+  <div class="text-block__wrapper">
+    <div class="text-block">{{ content }}</div>
+    <div class="text-block__wrapper-danke">
+      <div class="text-block__danke icon"><img src="../img/danke_1.svg"></div>
+      <div class="text-block__danke icon"><img src="../img/danke_2.svg"></div>
+    </div>
+  </div>
+{% else %}
+  <div class="text-block__wrapper">
+    <div class="text-block">{{ content }}</div>
+  </div>
+{% endif %}

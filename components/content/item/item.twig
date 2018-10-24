@@ -1,10 +1,86 @@
-<div class="item">
-    <div class="{% if reverse %}item__wrapper-reverse {% else %}item__wrapper{% endif %}">
+{% if wein %}
+  <div class="item">
+    <div class="item__wrapper-wein">
+      <div class="item-wein">
+        <img class="item-spruch icon" src="../img/rotwein_spruch.svg">
+        <img class="item-prost icon" src="../img/rotwein_prost.svg">
+        <img class="item-red icon" src="../img/rot_bubble.svg">
+      </div>
       <img class="item__image" src="{{ image }}">
       <div class="item__content">
         <div class="item__content-headline">{{ headline }}</div>
         <img class="item__content-border" src="../img/headline_line.svg">
         <div class="item__content-text">{{ content }}</div>
       </div>
+      <img class="item-notiz icon" src="../img/notiz_einhalb.svg">
     </div>
-</div>
+  </div>
+{% elseif mampf %}
+  <div class="item">
+    <div class="item__wrapper-mampf">
+      <div class="item__wrapper-image">
+        <img class="item__image" src="{{ image }}">
+        <img class="item-arme icon" src="../img/arme.svg">
+      </div>
+      <div class="item__content">
+        <div class="item__content-headline">{{ headline }}</div>
+        <img class="item__content-border" src="../img/headline_line.svg">
+        <div class="item__content-text">{{ content }}</div>
+      </div>
+      <img class="item-mampf icon" src="../img/mampf_kekse.svg">
+    </div>
+  </div>
+{% elseif nelken %}
+  <div class="item">
+    <div class="item__wrapper-nelken">
+      <img class="item-schneemann icon" src="../img/schneemann.svg">
+      <img class="item-heil icon" src="../img/heilkraefte_schild.svg">
+      <img class="item__image" src="{{ image }}">
+      <div class="item__content">
+        <div class="item__content-headline">{{ headline }}</div>
+        <img class="item__content-border" src="../img/headline_line.svg">
+        <div class="item__content-text">{{ content }}</div>
+      </div>
+      <img class="item-abwehr icon" src="../img/abwehrkraefte_schriftzug.svg">
+    </div>
+  </div>
+{% elseif beere %}
+  <div class="item">
+    <div class="item__wrapper-beere">
+      <img class="item-sterne icon" src="../img/sterne.svg">
+      <img class="item__image" src="{{ image }}">
+      <div class="item__content">
+        <div class="item__content-headline">{{ headline }}</div>
+        <img class="item__content-border" src="../img/headline_line.svg">
+        <div class="item__content-text">{{ content }}</div>
+      </div>
+      <img class="item-aroma icon" src="../img/aroma_liste.svg">
+    </div>
+  </div>
+{% elseif zimt %}
+  <div class="item">
+    <div class="item__wrapper-zimt">
+      <img class="item-strahlen icon" src="../img/strahlen_sterne.svg">
+      <img class="item__image" src="{{ image }}">
+      <div class="item__content">
+        <div class="item__content-headline">{{ headline }}</div>
+        <img class="item__content-border" src="../img/headline_line.svg">
+        <div class="item__content-text">{{ content }}</div>
+      </div>
+      <img class="item-brezel icon" src="../img/brezel.svg">
+    </div>
+  </div>
+{% elseif orange %}
+  <div class="item">
+      <div class="item__wrapper-orange">
+        <img class="item-orangen icon" src="../img/orangen.svg">
+        <img class="item__image-orange" src="{{ image }}">
+        <div class="item__content orange">
+          <div class="item__content-headline">{{ headline }}</div>
+          <img class="item__content-border" src="../img/headline_line.svg">
+          <div class="item__content-text">{{ content }}</div>
+        </div>
+        <img class="item-orange icon" src="../img/banderole_orange.svg">
+      </div>
+  </div>
+{% endif %}

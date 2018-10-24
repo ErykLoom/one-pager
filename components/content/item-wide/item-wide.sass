@@ -2,6 +2,8 @@
 
 .item-wide
   padding: 0 40px
+  +wide
+    margin-top: -100px
 
   &__header
     font-size: 70px
@@ -9,9 +11,11 @@
       font-size: 42px
 
   &__border
-    +narrow
-      margin-bottom: 20px
-      width: 25%
+    margin-bottom: 20px
+    width: 25%
+    +wide
+      margin-bottom: unset
+      width: unset
 
   &__wrapper
     display: flex
@@ -19,15 +23,41 @@
     margin-bottom: 30px
     +wide
       font-size: 20px
-      font-size: 20px
-      width: 30%
+      width: 600px
       margin: 0 auto
 
   &__content
     width: 40%
     margin: 0 10px
+    +wide
+      width: 28%
 
   &__image
-    +narrow
-      width: 90%
-      margin-left: 35px
+    width: 90%
+    margin-left: 35px
+    +wide
+      width: unset
+      margin-left: unset
+
++wide
+  .item-wide
+
+    &__icon-wrapper
+      position: relative
+      left: 20px
+      top: 50px
+
+    &-rum
+      position: relative
+      left: 170px
+      bottom: 30px
+
+    &-tea
+      position: relative
+      right: 340px
+      bottom: 120px
+
+    &-cigar
+      position: relative
+      right: 230px
+      bottom: 140px

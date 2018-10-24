@@ -3,16 +3,24 @@
 .item
   display: flex
   justify-content: space-around
-  margin-bottom: 2em
+  margin-bottom: 75px
   padding: 0 40px
 
   &__wrapper
     display: flex
+
+  &__wrapper-wein,
+  &__wrapper-nelken,
+  &__wrapper-zimt
+    display: flex
     flex-direction: row
 
-  &__wrapper-reverse
+  &__wrapper-mampf,
+  &__wrapper-beere,
+  &__wrapper-orange
     display: flex
     flex-direction: row-reverse
+
 
   &__content
     display: flex
@@ -28,13 +36,133 @@
     &-text
       +wide
         font-size: 20px
-        width: 200px
+        width: 225px
 
     &-border
       margin: 10px auto
-      +narrow
-        width: 25%
+      width: 25%
+      +wide
+        width: unset
 
     &-text__wrapper
       display: flex
       flex-direction: row
+
+.icon
+  display: none
+
++wide
+  .icon
+    display: inline
+
+  .orange
+    justify-content: end
+    position: relative
+    top: 50px
+    margin: 0
+
+  .item
+    &__image-orange
+      width: 250px
+      height: 250px
+
+    &__wrapper-mampf
+      display: flex
+      flex-direction: row-reverse
+      position: relative
+      left: 190px
+
+    &__wrapper-image
+      position: relative
+      bottom: 50px
+
+    &__wrapper-nelken
+      display: flex
+      position: relative
+      right: 80px
+      margin-top: -50px
+
+    &__wrapper-beere
+      position: relative
+      left: 80px
+
+    &__wrapper-zimt
+      position: relative
+      right: 200px
+      top: 60px
+
+    &__wrapper-wein
+      position: relative
+      right: 90px
+
+    &-heil
+      position: relative
+      left: 185px
+      bottom: 90px
+
+    &-schneemann
+      position: relative
+      left: 175px
+
+    &-abwehr
+      position: relative
+      bottom: 50px
+      right: 25px
+
+    &-aroma
+      position: relative
+      top: 25px
+
+    &-sterne
+      position: relative
+      top: 75px
+      right: 75px
+
+    &-strahlen
+      position: relative
+      left: 390px
+      bottom: 80px
+
+    &-brezel
+      position: relative
+      bottom: 35px
+      right: 10px
+
+    &__arme
+      position: relative
+      right: 370px
+      bottom: 55px
+
+    &__mampf
+      position: relative
+      bottom: 100px
+
+    &-orange
+      position: relative
+      top: 30px
+      left: 90px
+
+    &-orangen
+      position: relative
+      right: 155px
+      bottom: 15px
+
+    &-wein
+      position: relative
+      display: inline
+      left: 40px
+      bottom: 40px
+
+    &-prost
+      position: relative
+      top: 45px
+
+    &-notiz
+      position: relative
+      bottom: 90px
+      right: 50px
+
+    &-spruch
+      position: relative
+      top: 185px
+      left: 285px

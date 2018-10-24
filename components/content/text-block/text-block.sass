@@ -5,7 +5,34 @@
   line-height: 22px
   margin-bottom: 50px
   padding: 0 40px
+  display: inline-block
   +wide
     font-size: 16px
     width: 30%
     margin: 25px auto
+
+  &__icon
+    display: none
+
+.icon
+  display: none
+
++wide
+  .icon
+    display: inline
+
+  .text-block
+    &__sweet
+      display: inline
+      position: relative
+      top: 65px
+
+    &__wrapper-danke
+      width: 35%
+      justify-content: space-between
+      display: flex
+      margin: 0 auto
+
+    &__wrapper
+      width: 100%
+
